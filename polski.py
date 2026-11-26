@@ -45,8 +45,7 @@ def evaluate_rpn(rpn: list) -> int:
             elif token == '*':
                 stack.append(a * b)
             elif token == '/':
-                stack.append(a-b)
-                #stack.append(a // b)
+                stack.append(a // b)
     return stack[0]
 
 
